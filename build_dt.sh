@@ -1,5 +1,7 @@
 #!/bin/sh
 #executes decision tree learner and output accuracy results
-./compile.sh
-/opt/jdk1.8.0_60/bin/java DecisionTreeUtil02 $1 $2 $3 $4 $5 $6
+export JAVA_HOME=/opt/jdk1.8.0_60
+export PATH=/opt/jdk1.8.0_60/bin:$PATH
+javac *.java
+java DecisionTreeUtil02 $@
 #end
