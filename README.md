@@ -1,5 +1,6 @@
 # Machine Learning Algorithms
-My implementations of machine learning algorithms
+My implementations of machine learning algorithms:
+
 1. Decision Tree classifier using information gain
    main program: DecisionTreeUtil02
    run main program with arguments: training_data test_data max_depth min_gain model_file sys_output > acc_file
