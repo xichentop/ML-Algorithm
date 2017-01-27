@@ -1,2 +1,2 @@
-# ML-Algorithm
-My implementations of machine learning algorithms
+# Decision Tree
+My implementation of a DecisionTree classifier
